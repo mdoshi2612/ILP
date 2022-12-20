@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+.faqs{
+    margin-top: 30px;
+    width: 60%;
+    margin: auto;
+}
+.faq-accord{
+       background-color: transparent !important;
+       box-shadow: none !important;
+       border: #96938b solid 1px;
+       border-top: none;
+       border-radius: 0px !important;
+       font-family: 'Montserrat', sans-serif !important;
+       margin: 0px 20px !important;
+}

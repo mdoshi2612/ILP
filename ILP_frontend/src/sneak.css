@@ -1,0 +1,13 @@
+.sneak{
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.slick-slide > div{
+    margin: 10px;
+}
+.sneakslide{
+    height: 300px;
+    margin: 5px 50px;
+}

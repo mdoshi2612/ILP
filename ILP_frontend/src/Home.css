@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+.red-let{
+    color: #e85a50;
+}
+.hero-text h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 6.5rem;
+}
+.hero-text{
+    margin-left: 20px;
+    margin-top: 7%;
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-55%); */
+    z-index: 2;
+}
+
+.page-title{
+    border: #e85a50 solid 1px;
+    color: #e85a50;
+    width: max-content;
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-size: 3.5rem;
+}
+
+.Footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #11100c7d;
+    /* Height of the footer*/ 
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+  }
+.contact-cards{
+    margin: 20px;
+    color: black;
+    padding: 1%;
+}
+
+.contact-cards p{
+    font-weight: 600;
+    font-size: large;
+    margin: 10px ;
+}
+.contact-cards h3{
+    margin: 5px;
+}
+.FooterDetails{
+    display: inline;
+}
+
+.faq{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 890px){
+    .Footer{
+        display: block;
+    }
+    .hero-text h1{
+        font-size: 12vw;
+    }
+}
